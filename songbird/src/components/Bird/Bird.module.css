@@ -1,0 +1,30 @@
+.bird {
+  width: 55%;
+  height: 258px;
+  padding: 20px;
+  border: 1px solid #444444;
+  background: rgb(48, 48, 48);
+  border-radius: 20px;
+  margin: 20px 0;
+  overflow: hidden;  
+  box-sizing: border-box;
+}
+
+.birdInfo {
+}
+
+.birdInfo_img {
+}
+
+.birdInfo_Naming {
+}
+
+.birdInfo_Name {
+}
+
+.birdInfo_NameLA {
+}
+
+.birdInfo_text {
+  margin: 0;
+}
