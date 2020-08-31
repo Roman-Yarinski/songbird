@@ -1,11 +1,11 @@
 import React from "react";
 import s from "./Header.module.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className={s.header}>
       <div className={s.logo}></div>
-      <div className={s.score}>Score: 0</div>
+      <div className={s.score}>Score: {props.score}</div>
     </header>
   );
 };
