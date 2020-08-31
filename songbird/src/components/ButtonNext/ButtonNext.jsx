@@ -1,10 +1,11 @@
-import React from 'react';
-import s from './ButtonNext.module.css'
+import React from "react";
+import s from "./ButtonNext.module.css";
 
-const ButtonNext = () => {
-  return(
-    <div className={s.buttonNext}>Next</div>
+
+const ButtonNext = (props) => {
+  return (
+    <button className={s.buttonNext} onClick={() => {props.clickHandler()}} disabled={props.disabled}>Next</button>
   )
-}
+} 
 
 export default ButtonNext;
