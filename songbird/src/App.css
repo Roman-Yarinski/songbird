@@ -23,3 +23,33 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.true > span {
+  background: rgb(0, 188, 140) !important;
+}
+
+.false > span {
+  background: rgba(155, 2, 2, 0.836) !important;
+}
+
+.current {
+  background: rgb(0, 188, 140) !important;
+}
+
+.answer {
+  margin: 20px 0;
+  background: rgb(48, 48, 48);
+  border-radius: 20px;
+  width: 40%;
+  border: 1px solid #444444;
+  overflow: hidden;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}

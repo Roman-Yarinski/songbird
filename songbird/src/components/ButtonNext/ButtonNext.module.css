@@ -6,6 +6,11 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #444444;
-  background: rgb(48, 48, 48);
+  background: rgb(0, 188, 140);
   cursor: pointer;
+}
+
+.buttonNext:disabled {
+  background: rgba(0, 188, 140, .5);
+  cursor: unset;
 }

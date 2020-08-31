@@ -11,20 +11,36 @@
 }
 
 .birdInfo {
+  display: flex;
 }
 
 .birdInfo_img {
+  border-radius: 20px;
+  width: 133px;
+  height: 100px;
 }
 
 .birdInfo_Naming {
+  width: 100%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .birdInfo_Name {
+  margin: 0;
 }
 
 .birdInfo_NameLA {
+  font-style: italic;
+  margin: 0;
 }
 
 .birdInfo_text {
-  margin: 0;
+  margin: 20px 0;
+}
+
+.audioBird {
+  width: 100%;
 }
