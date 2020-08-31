@@ -16,7 +16,7 @@ const Question = (props) => {
         <h3 className={s.birdName}>{props.birdName || "******"}</h3>
         <hr className={s.line} width="80%" align="center" size="1px" />
         <div className={s.audioPlayer}>
-          <audio src={props.birdAudio} controls className={s.audio}></audio>
+          <audio id='qwestionAudio' src={props.birdAudio} controls className={s.audio}></audio>
         </div>
       </div>
     </div>

@@ -47,6 +47,7 @@ class App extends React.Component {
     let loseAudio = new Audio(lose);
     if (e.target.id - 1 === this.state.answer) {
       // e.target.classList.add('true')
+      document.getElementById('qwestionAudio').pause();
       rightAudio.play();
       this.setState(({ disabled, win, currentScore, score }) => {
         return {
@@ -68,6 +69,10 @@ class App extends React.Component {
     }
   };
 
+  reload = () => {
+    window.location.reload();
+  }
+
   render() {
     console.log("Answer: ", this.state.answer + 1);
     const level = birdData[this.state.page];
@@ -75,7 +80,7 @@ class App extends React.Component {
       if (this.state.page === 10) {
         let AudioEnd = new Audio(endAudio);
         AudioEnd.play();
-        return <End page={this.state.page} score={this.state.score} />;
+        return <End page={this.state.page} score={this.state.score} clickHandler={this.reload}/>;
       }
     }
     return (
