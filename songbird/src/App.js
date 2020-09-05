@@ -28,7 +28,7 @@ class App extends React.Component {
   }
 
   nextPage = () => {
-    this.setState(({ page, disabled, win, score, currentScore }) => {
+    this.setState(({ page, disabled, win}) => {
       return {
         page: page < 5 ? page + 1 : 10,
         answer: Math.floor(Math.random() * (5 - 0 + 0)) + 0,
