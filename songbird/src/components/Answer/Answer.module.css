@@ -1,0 +1,44 @@
+.answer {
+  margin: 20px 0;
+  background: rgb(48, 48, 48);
+  border-radius: 20px;
+  width: 40%;
+  border: 1px solid #444444;
+  overflow: hidden;
+}
+
+.answerItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-bottom: 1px solid #444444;
+  cursor: pointer;
+}
+
+.answerItem:hover {
+  background: rgb(94, 93, 93);
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  transition: 0.1s;
+  background: rgb(103, 105, 103);
+}
+
+.dot.true {
+  background: rgb(0, 188, 140);
+}
+
+.false > .dot {
+  background: rgba(155, 2, 2, 0.836);
+}
+
+.answerItem_word {
+  color: aliceblue;
+  margin: 10px;
+}

@@ -1,0 +1,31 @@
+.question {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: rgb(48, 48, 48);
+}
+
+.birdImg {
+  border-radius: 40px;
+  padding: 15px;
+}
+
+.birdInfo {
+  padding: 15px;
+  width: 100%;
+}
+
+.birdName {
+  color: aliceblue;
+  padding-bottom: 3px;
+}
+
+
+.audioPlayer {
+  padding-top: 20px;
+}
+
+.audio {
+  width: 100%;
+}
